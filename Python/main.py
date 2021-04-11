@@ -1,8 +1,8 @@
 import pygame as pg
+from game import Game
 
-
-SCREEN_WIDTH = 525
-SCREEN_HEIGHT = 675
+SCREEN_WIDTH = 25 * Game.TILE_COLS
+SCREEN_HEIGHT = 25 * Game.TILE_ROWS
 
 pg.init()
 clock = pg.time.Clock()
